@@ -1,4 +1,4 @@
-# AngularFordotNet
+# Angular For .Net
 Angular for .NET demo
 
 This demo is structured into four sections:
