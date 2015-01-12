@@ -1,0 +1,12 @@
+﻿@{
+    ViewBag.Title = "WithController";
+}
+<script src="~/Scripts/1SimpleController.js"></script>
+<h2>WithController</h2>
+<div ng-controller="SimpleController">
+    <br />
+    <input ng-model="message.text"/>
+    <p>
+        Hello {{message.text}} it is nice to see you here at {{message.event}}
+    </p>
+</div>

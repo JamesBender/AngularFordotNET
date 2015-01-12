@@ -1,0 +1,18 @@
+﻿@{
+    ViewBag.Title = "Basket";
+}
+<div ng-controller="BasketController">
+    
+    <h2 ng-bind="title"></h2>
+    
+    <script src="~/Scripts/2BasketController.js"></script>
+    
+    <div ng-repeat="item in items">
+        <span>{{item.title}}</span>
+        <input ng-model="item.quantity" />
+        <span>{{item.price | currency}}</span>
+        <span>{{item.price * item.quantity | currency}}</span>
+        <button ng-click="remove(item.Id)">Remove</button>
+    </div>
+    
+</div>

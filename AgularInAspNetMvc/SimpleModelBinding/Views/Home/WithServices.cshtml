@@ -1,0 +1,17 @@
+﻿
+@{
+    ViewBag.Title = "WithServices";
+}
+
+<h2>With Services</h2>
+
+<script src="~/Scripts/4ServicesController.js"></script>
+<h2>Simple Form</h2>
+
+<form ng-controller="ServicesController" >
+    First Name: <input ng-model="user.FirstName" /><br />
+    Last Name: <input ng-model="user.LastName" /><br />
+    User Name: <input ng-model="user.UserName" /><br />
+    <button ng-click="retrieve(1)">Get</button>
+    <button ng-click="save()">Add Me</button>
+</form>

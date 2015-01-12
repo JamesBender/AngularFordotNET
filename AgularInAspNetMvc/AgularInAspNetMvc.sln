@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Demo1", "Demo1", "{DD0A8841-513D-4388-A1D1-D41678DD8D51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleModelBinding", "SimpleModelBinding\SimpleModelBinding.csproj", "{8B172F9F-D926-4A71-A4AD-A2574F7D7804}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Demo2", "Demo2", "{2D6C00B2-99A4-46CE-9B5B-6B43C8AB8A95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularServices", "AngularServices\AngularServices.csproj", "{9820769D-1B4B-443B-B023-7601E267D260}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Demo3-BootstrappingData1", "Demo3-BootstrappingData1", "{5F40AAEA-CCC7-426A-AE3D-0EA16C3687D0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Demo4-BootstrappingData2", "Demo4-BootstrappingData2", "{03B5FB81-E86B-44D2-BB54-2BBC043BD98E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BootstrapOne", "BootstrapOne\BootstrapOne.csproj", "{277EC96A-F765-4DB7-A143-69602212E254}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BootstrapTwo", "BootstrapTwo\BootstrapTwo.csproj", "{49F14FB6-604F-4B78-A8B4-E74F5A2B38F4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8B172F9F-D926-4A71-A4AD-A2574F7D7804}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B172F9F-D926-4A71-A4AD-A2574F7D7804}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B172F9F-D926-4A71-A4AD-A2574F7D7804}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B172F9F-D926-4A71-A4AD-A2574F7D7804}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9820769D-1B4B-443B-B023-7601E267D260}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9820769D-1B4B-443B-B023-7601E267D260}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9820769D-1B4B-443B-B023-7601E267D260}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9820769D-1B4B-443B-B023-7601E267D260}.Release|Any CPU.Build.0 = Release|Any CPU
+		{277EC96A-F765-4DB7-A143-69602212E254}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{277EC96A-F765-4DB7-A143-69602212E254}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{277EC96A-F765-4DB7-A143-69602212E254}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{277EC96A-F765-4DB7-A143-69602212E254}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49F14FB6-604F-4B78-A8B4-E74F5A2B38F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49F14FB6-604F-4B78-A8B4-E74F5A2B38F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49F14FB6-604F-4B78-A8B4-E74F5A2B38F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49F14FB6-604F-4B78-A8B4-E74F5A2B38F4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8B172F9F-D926-4A71-A4AD-A2574F7D7804} = {DD0A8841-513D-4388-A1D1-D41678DD8D51}
+		{9820769D-1B4B-443B-B023-7601E267D260} = {2D6C00B2-99A4-46CE-9B5B-6B43C8AB8A95}
+		{277EC96A-F765-4DB7-A143-69602212E254} = {5F40AAEA-CCC7-426A-AE3D-0EA16C3687D0}
+		{49F14FB6-604F-4B78-A8B4-E74F5A2B38F4} = {03B5FB81-E86B-44D2-BB54-2BBC043BD98E}
+	EndGlobalSection
+EndGlobal
